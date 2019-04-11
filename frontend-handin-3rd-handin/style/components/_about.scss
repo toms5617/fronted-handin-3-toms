@@ -1,0 +1,25 @@
+// ABOUT
+
+#garden{
+    width: 49vw;
+  }
+  
+  .duration{
+    color: $text-color;
+  }
+  
+  .presentation   {
+    .special-offers{
+      .offer {
+        .card{
+          width: 14rem;
+          img {
+            width: $full-width; 
+            height: 200px; 
+            border-radius: 0; 
+            object-fit: $cover;
+          }
+        }
+      }
+    }
+  }

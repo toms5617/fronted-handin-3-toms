@@ -1,0 +1,8 @@
+// Visit us
+
+.directions{
+    @include CTA-button();
+    width: 350px;
+    margin-bottom: $bottom-margine;
+  }
+  

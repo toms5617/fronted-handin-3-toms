@@ -1,0 +1,45 @@
+//  variables
+
+ @import "_colors";
+ @import "_margines";
+ @import "_variables";
+
+// mixins
+
+ @import "_mixins";
+
+// fonts
+
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:400,500|Ubuntu');
+
+
+// global
+
+body {
+  background-color: $body-color;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: $text-color;
+}
+
+// page content
+
+@import "components/_navigation";
+
+@import "components/landing-view";
+
+@import "components/about";
+
+@import "components/menu";
+
+@import "components/review";
+
+@import "components/visit-us";
+
+@import "components/footer";
+
+// media query
+
+@import "components/_mediaquery";

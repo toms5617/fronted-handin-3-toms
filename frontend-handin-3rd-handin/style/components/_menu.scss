@@ -1,0 +1,25 @@
+// Menu
+.center-heading{
+    margin-top: $top-margine;
+    margin-bottom: $bottom-margine;
+  }
+  .menu{
+    h2{
+      display: block;
+    }
+    .container{
+      .card-group{
+        .card{
+          img{
+            margin-top: 15%;
+          }
+          .price{
+            padding-top: $sm-padding;
+            h4{
+              color: $sub-text-color;
+            } 
+          }
+        }
+      }
+    }
+  }

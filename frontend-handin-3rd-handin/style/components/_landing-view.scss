@@ -1,0 +1,54 @@
+// landing page first view
+.container-fluid {
+    display: $flex;
+    padding-right: $pd-none;
+    padding-left: $pd-none;
+  }
+  
+  .presentation {
+    margin-top: double($top-margine);
+    @include left-right-side-margine();
+    h1{
+      font-size: 60px;
+    }
+    p{
+      font-size: 18px;
+      font-family: 'Ubuntu', sans-serif;
+      color: $sub-text-color;
+    }
+    .special-offers{
+      margin-top: $top-margine;
+      display: $flex;
+      justify-content: space-around;
+      .offer{
+        img{
+          width: $offer-img;
+          height: $offer-img;
+          border-radius: $br-50;
+          object-fit: $cover;
+        }
+        p{
+          margin-top: $sm-margine;
+          font-family: $roboto;
+          text-align: $center;
+          color: $sub-text-color;
+        }
+      }
+    }
+    
+    button{
+      @include CTA-button();
+    }
+  
+  }
+  
+  .image{
+    img{
+      height: $full-viewport-height;
+      max-height: $full-viewport;
+      width: half($full-viewport);
+      object-fit: $cover;
+      opacity: 0.8;
+      // filter: grayscale(20%);
+    }
+  }

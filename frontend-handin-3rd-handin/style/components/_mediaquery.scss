@@ -1,0 +1,66 @@
+
+@media (max-width: 768px){
+
+// Nav
+
+
+
+.fixed-top{
+  position: relative;
+}
+
+// Landing view
+
+.presentation{
+  margin-top: $mg-none;
+  margin-left: $medium-offset;
+  margin-right: $medium-offset; 
+  padding-left: $pd-none;
+  padding-right: $pd-none; 
+  margin-bottom: $bottom-margine;
+  h1{
+    margin-bottom: $medium-offset; 
+  }
+  .special-offers{
+    margin-top: half($top-margine);
+    margin-bottom: half($top-margine);
+    display: $block;
+    @include left-right-auto();
+    .offer{
+      img{
+        display: $block;
+        @include left-right-auto();
+      }
+    }
+  }
+}
+  
+.image{
+  display: none;
+}
+
+// cards 
+.presentation   {
+  .special-offers{
+    .offer {
+      .card{
+        width: $full-width;
+        margin-bottom: $medium-offset;
+      }
+    }
+  }
+}
+
+.menu{
+  margin-top: $mg-none;
+}
+
+// Reviews
+.carousel{
+  width: $full-width;
+  .w-100{
+    object-fit: $cover;
+  }
+}
+
+}

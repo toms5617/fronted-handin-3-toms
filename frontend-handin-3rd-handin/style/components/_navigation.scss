@@ -1,0 +1,31 @@
+
+// Navigation 
+
+.navbar{
+
+  @include left-right-side-margine();
+}
+#logo{
+  width: 100px;
+}
+
+.navbar-nav{
+  .phone{
+    font-size: $medium-size;
+    margin-right: $sm-margine;
+    padding-left: $sm-padding; 
+    padding-right: $sm-padding; 
+    border-radius: $br-50;
+  }
+  .nav-item{
+    .nav-link{
+      color: $text-color;
+      font-family: $roboto;
+      font-weight: $medium-font-weight;
+      font-size: 22px;
+    }
+    .nav-link:hover{
+      color: $red;
+    }
+  }
+}

@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:400,500|Ubuntu");
+body {
+  background-color: #FFFFFF;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #181716;
+}
+
+.navbar {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#logo {
+  width: 100px;
+}
+
+.navbar-nav .phone {
+  font-size: 20px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #181716;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f34a4a;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.presentation {
+  margin-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.presentation h1 {
+  font-size: 60px;
+}
+
+.presentation p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+}
+
+.presentation .special-offers {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.presentation .special-offers .offer img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.presentation .special-offers .offer p {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: grey;
+}
+
+.presentation button {
+  margin: auto;
+  margin-top: 25px;
+  width: 200px;
+  height: 55px;
+  border-radius: 50px;
+  border: 3px solid #f34a4a;
+  font-weight: 700;
+}
+
+.image img {
+  height: 100vh;
+  max-height: 100vw;
+  width: 50vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+}
+
+#garden {
+  width: 49vw;
+}
+
+.duration {
+  color: #181716;
+}
+
+.presentation .special-offers .offer .card {
+  width: 14rem;
+}
+
+.presentation .special-offers .offer .card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.center-heading {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.menu h2 {
+  display: block;
+}
+
+.menu .container .card-group .card img {
+  margin-top: 15%;
+}
+
+.menu .container .card-group .card .price {
+  padding-top: 20px;
+}
+
+.menu .container .card-group .card .price h4 {
+  color: grey;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel .w-100 {
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0.5;
+}
+
+.carousel .carousel-caption {
+  padding-bottom: 50px;
+}
+
+.carousel .carousel-caption img {
+  margin-bottom: 25px;
+  width: 125px;
+  height: 125px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel .carousel-caption h3, .carousel .carousel-caption p {
+  color: #181716;
+  font-weight: 500;
+}
+
+.carousel .carousel-caption p {
+  font-size: 20px;
+}
+
+.directions {
+  margin: auto;
+  margin-top: 25px;
+  width: 200px;
+  height: 55px;
+  border-radius: 50px;
+  border: 3px solid #f34a4a;
+  font-weight: 700;
+  width: 350px;
+  margin-bottom: 100px;
+}
+
+footer .row {
+  margin: 0;
+}
+
+footer .SOME {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding: 25px;
+}
+
+footer .SOME img {
+  margin: 15px;
+}
+
+@media (max-width: 768px) {
+  .fixed-top {
+    position: relative;
+  }
+  .presentation {
+    margin-top: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 100px;
+  }
+  .presentation h1 {
+    margin-bottom: 25px;
+  }
+  .presentation .special-offers {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .presentation .special-offers .offer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image {
+    display: none;
+  }
+  .presentation .special-offers .offer .card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .menu {
+    margin-top: 0;
+  }
+  .carousel {
+    width: 100%;
+  }
+  .carousel .w-100 {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/*# sourceMappingURL=style.css.map */

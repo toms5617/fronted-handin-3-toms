@@ -1,0 +1,16 @@
+// FOOTER
+
+footer{
+    .row{
+      margin: 0;
+    }
+    .SOME{
+      display: $flex;
+      justify-content: $center;
+      height: $full-height;
+      padding: $medium-offset;
+      img{
+        margin: 15px;
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+
+// used for pusing content away from edge of the browser
+$side-margine: 100px;
+
+// used to separate elements from one another vertically
+$top-margine: 100px;
+$bottom-margine: 100px;
+
+// inner margines and padding
+$sm-margine: 10px;
+$sm-padding: 20px;
+$medium-offset: 25px;
+
+// No padding
+$pd-none: 0;
+$mg-none: 0;
+
+// CUSTOM FUNCTION THAT DOUBLES THE VALUE
+@function double($size) {
+    @return $size * 2;
+}
+
+@function half($size) {
+    @return $size / 2;
+}

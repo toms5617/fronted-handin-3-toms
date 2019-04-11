@@ -1,0 +1,27 @@
+// REVIEW
+
+.carousel{
+    width: $full-width;
+    .w-100{
+      // width: 100vw;
+      height: 400px;
+      object-fit: contain;
+      opacity: 0.5;
+    }
+    .carousel-caption{
+      padding-bottom: double($medium-offset);
+      img{
+        margin-bottom: $medium-offset;
+        width: $carousell-img;
+        height: $carousell-img;
+        object-fit: $cover;
+      }
+      h3, p {
+        color: $text-color;
+        font-weight: $medium-font-weight;      
+      }
+      p{
+        font-size: $medium-size;
+      }
+    }
+  }
